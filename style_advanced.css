@@ -11,7 +11,6 @@ body{
 	position:relative;
 	width: 85%;
 	height: auto;
-	border: 1px solid black;
 	margin: 0 auto;
 }
 
@@ -19,7 +18,7 @@ header{
 	display: flex;
 	width: 100%;
 	height: auto;
-	border: 1px solid blue;
+	
 	
 
 }
@@ -28,25 +27,32 @@ header h1{
 	justify-content: center;
 	color: white;
 	text-align: center;
-	border: 1px solid red;
 	margin: auto;
 }
 
 header img{
 	margin: 10px;
 	margin-right: -10px;
+	transition: all 1s ease-in-out;
 
+}
+
+header img:hover{
+	transform: rotateY(360deg);
+	transition: all 5s ease-in-out;
 }
 
 nav{
 	width: 100%;
 	height: auto;
-	border: 1px solid white;
+	border-bottom: 2px solid white;
+	padding: 20px;
 
 }
 ul li{display: inline-block;
 	list-style-type: none;
 	padding-left: 20px;
+
 }
 
 li a{
@@ -54,6 +60,64 @@ li a{
 	text-decoration: none;
 	font-size: 18pt;
 	color: white;
+	transition: all 0.5s ease-in-out;
+
 
 }
 
+li a:hover{
+	transition-timing-function: ease-in-out;
+	transition-duration: 1s;
+	
+	font-size: 30pt;
+}
+
+div figure figcaption{
+	color: white;
+
+}
+.gallery{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left , .right{
+	display: flex;
+	flex-flow: column;
+}
+
+
+.left img{
+	width: 450px;
+	height: 200px;
+}
+
+.right img{
+	width:  450px;
+	height: 200px;
+
+}
+
+.size{
+	width: 450px;
+}
+
+#contact{
+
+	
+}
+#contact img{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 15%;
+}
+#contact p{
+	color: white;
+	text-align: center;
+	border-top: 1px solid white;
+	margin: 20px;
+	padding: 10px;
+
+}
