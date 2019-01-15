@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	letter-spacing: 10px;
+}
+body{
+	background-image: url(matrix.jpg);
+}
+.container{
+	position:relative;
+	width: 85%;
+	height: auto;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+header{
+	display: flex;
+	width: 100%;
+	height: auto;
+	border: 1px solid blue;
+	
+
+}
+header h1{
+
+	justify-content: center;
+	color: white;
+	text-align: center;
+	border: 1px solid red;
+	margin: auto;
+}
+
+header img{
+	margin: 10px;
+	margin-right: -10px;
+
+}
+
+nav{
+	width: 100%;
+	height: auto;
+	border: 1px solid white;
+
+}
+ul li{display: inline-block;
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+li a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18pt;
+	color: white;
+
+}
+
