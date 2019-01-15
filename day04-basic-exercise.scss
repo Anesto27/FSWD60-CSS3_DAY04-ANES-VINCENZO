@@ -1,0 +1,131 @@
+$transition:all 1s ease-in-out;
+$font-size:20pt;
+$transiton2: scale(2, 2);
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: lightgrey;
+
+	
+
+}
+#logo{
+	
+	transition: $transition;
+}
+
+#logo:hover{
+	transform: $transiton2;
+	transition: $transition;
+	
+	
+}
+
+#link1{
+	
+	transition-duration: 5s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.5s;
+
+}
+#link1:hover {
+	transform: rotate(360deg);
+	font-size: $font-size;
+	transition: $transition;
+}
+
+
+#link1 a:hover{
+color: red;
+}
+
+#link2{
+	transition: $transition;
+	transition-timing-function: ease-in-out;
+
+}
+
+#link2:hover{
+	background-color: yellow;
+	padding: 200px;
+	border-radius: 50px;
+	transition: all 2s ease-in-out;
+}
+
+.container h1{
+	text-align: center;
+	color: blue;
+}
+
+
+
+#link3 {	
+	transition: $transition;
+	transition-timing-function:  ease-in;
+}
+
+
+#link3:hover {
+ 	font-family: arial;
+ 	font-size:  $font-size;
+ 	transition: all 3s ease-in-out;
+ 	transform: rotate(90deg);
+}
+
+#link3 a:hover {
+	color: blue;
+}
+
+
+
+#link4{
+	transition: $transition;
+}
+
+#link4:hover{
+
+transform: rotate3d(25, 25, 20, 360deg);
+transition: all 4s ease-in-out;
+font-size: $font-size;
+transition-timing-function: ease-in-out;
+}
+
+.Generallinks .link{
+	transition: $transition;
+}
+
+.Generallinks .link:hover{
+	transition-timing-function: ease-in-out;
+	transition-duration: 1s;
+	text-decoration: none;
+	font-size: $font-size;
+	
+}
+
+
+
+
+.container  ul{
+
+	
+	list-style: none;
+	display: flex;
+	flex-flow:row;
+	justify-content: center;
+	justify-content: space-around;
+
+
+
+}
+
+.container a{
+	
+text-decoration: none;
+color: black;
+}
+
+
+
+#link1{
+	
+}
